@@ -1,15 +1,8 @@
-import { CountdownProvider } from '@/contexts/CountdownContext';
 import type { AppProps } from 'next/app';
-import { ChallengesProvider } from '../contexts/ChallengesContexts';
-
 import '../styles/global.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <ChallengesProvider>
-      <Component {...pageProps} />
-    </ChallengesProvider>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;

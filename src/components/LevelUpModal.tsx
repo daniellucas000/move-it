@@ -1,4 +1,4 @@
-import { ChallengesContext } from '@/contexts/ChallengesContexts';
+import { ChallengesContext } from '../contexts/ChallengesContexts';
 import { useContext } from 'react';
 import styles from '../styles/components/LevelUpModal.module.css';
 
